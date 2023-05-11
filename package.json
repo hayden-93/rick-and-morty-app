@@ -1,7 +1,7 @@
 {
   "name": "rick-and-morty-app",
   "version": "0.0.1",
-  "description": "",
+  "description": "A React single-page application that consumes data from the Rick and Morty API. Uses Webpack and Babel for bundling/transpilation. Styled using Bootstrap.",
   "main": "index.js",
   "scripts": {
     "start": "webpack serve --mode development",
