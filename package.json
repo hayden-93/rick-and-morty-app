@@ -1,0 +1,25 @@
+{
+  "name": "rick-and-morty-app",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack --mode development",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hayden-93/rick-and-morty-app.git"
+  },
+  "keywords": [],
+  "author": "Hayden Buckley-smith",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hayden-93/rick-and-morty-app/issues"
+  },
+  "homepage": "https://github.com/hayden-93/rick-and-morty-app#readme",
+  "devDependencies": {
+    "webpack": "^5.82.1",
+    "webpack-cli": "^5.1.1"
+  }
+}
