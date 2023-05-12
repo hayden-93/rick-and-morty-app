@@ -2,6 +2,9 @@ const HtmlWebpackPlugin = require("html-webpack-plugin");
 const ESLintPlugin = require("eslint-webpack-plugin");
 
 module.exports = {
+  devServer: {
+    port: 3000,
+  },
   module: {
     rules: [
       {
